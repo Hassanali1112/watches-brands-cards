@@ -323,7 +323,7 @@ rolexbtn.addEventListener("click",()=>{
     if(rolexModelToList !== null){
       rolexCard.classList.remove("d-none")
       rolexCard.innerHTML = `
-      <img src="${rolexModelToList.img}" class="card-img-top" id="audiimg"  alt="...">
+      <img src="${rolexModelToList.img}" class=" img-fluid" id="audiimg"  alt="...">
                 <div class="card-body">
                   <h5 class="card-title audi-name">Model Name : ${rolexModelToList.name}</h5>
                   <p class="card-text audi-disc f-6 lead">Discription of Model : ${rolexModelToList.caption} </p>
@@ -364,7 +364,7 @@ audibtn.addEventListener("click",()=>{
 if(audiModelToList !== null){
   audiCard.classList.remove("d-none")
   audiCard.innerHTML = `
-  <img src="${audiModelToList.img}" class="card-img-top"  alt="...">
+  <img src="${audiModelToList.img}" class="img-fluid"  alt="...">
             <div class="card-body">
               <h5 class="card-title audi-name">Model Name : ${audiModelToList.name}</h5>
               <p class="card-text audi-disc f-6 lead">Discription of Model : ${audiModelToList.caption} </p>
@@ -406,7 +406,7 @@ gshockbtn.addEventListener("click", ()=>{
   if(gshockModelToList !== null){
     gshockCard.classList.remove("d-none")
     gshockCard.innerHTML = `
-    <img src="${gshockModelToList.img}" class="card-img-top"   alt="...">
+    <img src="${gshockModelToList.img}" class="img-fluid"   alt="...">
             <div class="card-body">
               <h5 class="card-title audi-name">Model Name : ${gshockModelToList.name}</h5>
               <p class="card-text audi-disc f-6 lead">Discription of Model : ${gshockModelToList.caption} </p>

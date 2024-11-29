@@ -2,28 +2,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+body{
+    background-color: rgba(65, 62, 53, 0.808) !important;
+    color: rgb(27, 25, 25) !important;
+}
+.container h4{
+    color: white;
+}
+select{
+    padding: .2rem .4rem;
+    font-size: .8rem;
+    border-radius: 5px;
+}
+
 .row button{
-    font-size: .7rem;
-    padding: .2rem .7rem;
+    font-size: .8rem;
+    padding: .3rem .7rem;
     border: none;
-    border-radius: .2rem;
-    background-color: rgba(11, 129, 11, 0.753);
+    border-radius: .3rem;
+    background-color: rgba(20, 116, 20, 0.753);
+    margin-bottom: .4rem;
+    color: white;
+}
+.card{
+    background-color: rgb(184, 184, 22) !important;
+
 }
 .card img{
-    margin-top: .3rem;
-    width: 100%;
+    margin: .6rem auto;
+    margin-bottom: 0;
+    width: 94%;
     height: 150px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 4px;
 
 }
 .card p{
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 1.2;
 }
 .card h5{
-    font-size: 1rem;
+    font-size: .9rem;
 }
 .card .btn{
     font-size: .9rem;
+}
+
+@media screen and (max-width : 992px) {
+    .row{
+        padding: 2rem 0 !important;
+        row-gap: 2rem !important;
+    }
+
+    .card{
+        width: 100% !important;
+    }
+    .card img{
+        height: 250px;
+    }
+    .card h5{
+        font-size: 1.2rem;
+    }
+    .card p{
+        font-size: 1rem;
+    }
 }
